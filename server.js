@@ -40,8 +40,6 @@ app.use(async(ctx, next) => {
   }
 });
 
-//TODO: write code here
-
 app.use(router());
 
 const port = process.env.PORT || 7070;
